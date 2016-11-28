@@ -1,0 +1,24 @@
+{
+  "name": "task-manage",
+  "version": "1.0.0",
+  "description": "task-manage",
+  "main": "server.js",
+  "scripts": {
+    "start": "babel-node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "taoyage(https://github.com/taoyage)",
+  "license": "ISC",
+  "dependencies": {
+    "babel": "^6.5.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.18.0",
+    "babel-preset-es2015": "^6.18.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-concat": "^2.6.0",
+    "gulp-livereload": "^3.8.1",
+    "gulp-watch": "^4.3.10"
+  }
+}
